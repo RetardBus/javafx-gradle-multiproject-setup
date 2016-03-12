@@ -1,6 +1,6 @@
 package com.rcgonzalezf.yourapp;
 
-import com.rcgonzalezf.yourapp.TestDependency;
+import com.rcgonzalezf.yourlib.FooBarClassInMyLib;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -16,9 +16,9 @@ public class Main extends Application {
         primaryStage.setScene(new Scene(root, 300, 275));
         primaryStage.show();
 
-	// Testing the library is linked correctly
-        TestDependency td = new TestDependency();
-        td.foo();
+	    // Testing the library dependencies are linked correctly
+        FooBarClassInMyLib bar = new FooBarClassInMyLib();
+        bar.foo();
     }
 
 
