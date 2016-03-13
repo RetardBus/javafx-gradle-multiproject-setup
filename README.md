@@ -1,6 +1,6 @@
 # javafx-gradle-multiproject-setup
 
-#### Disclaimer
+#### Justification of this sample project
 
   I created this base project, because after trying to find good solutions of having a simple JavaFx project with a library module based on gradle, it was really hard to do it and they samples didn't work correctly. However, use the following links for a complete plug-in to use JavaFX:
 
