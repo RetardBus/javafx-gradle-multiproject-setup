@@ -23,6 +23,11 @@ You should see your JavaFX app running:
 
 ![screenshot](ScreenShot.png)
 
+I added a Unit Test example on the lib module, you can execute unit tests by running:
+
+    gradle test
+
+
 For more details on other tasks please check the gradle dsl:
 https://docs.gradle.org/current/dsl/
 
